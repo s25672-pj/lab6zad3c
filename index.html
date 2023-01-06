@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad3c</title>
+</head>
+
+<body>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .row{
+            display: flex;
+            height: 100%;
+            width: 100%;
+            flex: 1;
+        }
+        .row1{
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+        .row2{
+            justify-content: center;
+            align-items: center;
+        }
+        .row3{
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .box{
+            color: #fff;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100px;
+            padding: 10px;
+            aspect-ratio: 1;
+        }
+        .box1{
+            background: rgb(177, 177, 177);
+        }
+        .box2{
+            background: rgb(121, 121, 121);
+        }
+        .box3{
+            background: rgb(83, 83, 83);
+        }
+    </style>
+
+    <div class="row row1">
+        <div class="box box1">
+            1
+        </div>
+    </div>
+
+    <div class="row row2">
+        <div class="box box2">
+            2
+        </div>
+    </div>
+
+    <div class="row row3">
+        <div class="box box3">
+            3
+        </div>
+    </div>
+
+</body>
+
+</html>
